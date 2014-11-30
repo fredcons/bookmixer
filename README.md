@@ -34,13 +34,13 @@ The script will generate in the target folder the following files :
 ```
 ~ tree /path/to/results
 /path/to/results
-├── annotated_names.txt
-├── annotated_story.txt
-├── existing_locations.txt
-├── existing_people.txt
-├── new_locations.txt
-├── new_people.txt
-└── resulting_story.txt
+├── annotated_names.txt    # an annotated version of the names file
+├── annotated_story.txt    # an annotated version of the story file
+├── existing_locations.txt # locations found in story file
+├── existing_people.txt    # characters found in story file
+├── new_locations.txt      # locations found in names file
+├── new_people.txt         # characters found in namesfile
+└── resulting_story.txt    # the result : the story file, with the the names file's characters and locations
 ```
 
 These files will give you some insights about the process, notably names and locations statistics.
